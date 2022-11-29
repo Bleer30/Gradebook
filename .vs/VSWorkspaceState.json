@@ -2,9 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\GradeBook",
-    "\\test",
-    "\\test\\GradeBook.Tests"
+    "\\src\\GradeBook"
   ],
   "SelectedNode": "\\gradebook.sln",
   "PreviewInSolutionExplorer": false

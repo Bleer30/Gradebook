@@ -1,6 +1,0 @@
-C:\Users\bleer.rodriguez\Documents\code\bas\gradebook\test\GradeBook.Tests\bin\Debug\net7.0\CoverletSourceRootsMapping
-C:\Users\bleer.rodriguez\Documents\code\bas\gradebook\test\GradeBook.Tests\obj\Debug\net7.0\GradeBook.Tests.csproj.AssemblyReference.cache
-C:\Users\bleer.rodriguez\Documents\code\bas\gradebook\test\GradeBook.Tests\obj\Debug\net7.0\GradeBook.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\bleer.rodriguez\Documents\code\bas\gradebook\test\GradeBook.Tests\obj\Debug\net7.0\GradeBook.Tests.AssemblyInfoInputs.cache
-C:\Users\bleer.rodriguez\Documents\code\bas\gradebook\test\GradeBook.Tests\obj\Debug\net7.0\GradeBook.Tests.AssemblyInfo.cs
-C:\Users\bleer.rodriguez\Documents\code\bas\gradebook\test\GradeBook.Tests\obj\Debug\net7.0\GradeBook.Tests.csproj.CoreCompileInputs.cache

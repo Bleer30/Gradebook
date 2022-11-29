@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "yg3LMIx/jkkZ+4R6oL6Vu3/p1ZGXXF023Q5FPNAxCsgNdUdmASmfbGQQwjjSaRSfY/TGT+zggPLtTi+qS2Sfaw==",
+  "dgSpecHash": "42we1z4TOx/0A015A5566r2I1M5tWv1dOhn6j9O5uqbagSGC5uiCGaFndpLTyks06p3rXjf2nhHcxGc8Plqd+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\bleer.rodriguez\\Documents\\code\\bas\\gradebook\\src\\GradeBook\\GradeBook.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bleer.rodriguez\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\bleer.rodriguez\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\bleer.rodriguez\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\bleer.rodriguez\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\bleer.rodriguez\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\bleer.rodriguez\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\bleer.rodriguez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
