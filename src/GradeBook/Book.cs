@@ -1,34 +1,46 @@
-public class Book
+using System;
+using System.Collections.Generic;
+
+namespace GradeBook
 {
-    public Book(string name)
+    public class Book
     {
-        grades = new List<double>();
-        Name = name;
-    }
-
-   public void AddGrade(double grade)
-   {
-       grades.Add(grade);
-   }
-
-   internal Statistics GetStatistics()
-    {
-        var result = new Statistics();
-        result.Average = 0.0;
-        result.high = double.MinValue;
-        result.Low = double.MaxValue;
-
-        foreach (var grade in grades)
+        public Book(string name)
         {
-            result.Low = Math.Min(grade, result.Low);
-            result.high = Math.Max(grade, result.high);
-            result.Average += grade;
+            grades = new List<double>();
+            Name = name;
         }
-        result /= grades.Count;
 
-        return result;
+        public void AddGrade(double grade)
+        {
+            if (grade <= 100 && grade >= 0)
+            {
+               grades.Add(grade);
+            } else
+            {
+                Console.WriteLine("Invalid Value");
+            }
+        }
+
+        internal Statistics GetStatistics()
+        {
+            var result = new Statistics();
+            result.Average = 0.0;
+            result.high = double.MinValue;
+            result.Low = double.MaxValue;
+
+            foreach (var grade in grades)
+            {
+                result.Low = Math.Min(grade, result.Low);
+                result.high = Math.Max(grade, result.high);
+                result.Average += grade;
+            }
+            result /= grades.Count;
+
+            return result;
+        }
+
+        public List<double> grades;
+        public sting name;
     }
-
-    public List<double> grades;
-    public sting name;
 }

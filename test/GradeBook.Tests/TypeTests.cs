@@ -6,11 +6,17 @@ namespace GradeBook.Tests
     public class TypeTests
     {
         [Fact]
-        public void Test1()
+        public void ValueTypesAlosoPassByValue()
         {
             var x = GetInt();
+            SetInt(ref x);
 
-            Assert.Equal(3, x);
+            Assert.Equal(42, x);
+        }
+
+        private void SetInt(ref int z)
+        {
+            z = 42;
         }
 
         private int GetInt()
@@ -52,7 +58,6 @@ namespace GradeBook.Tests
         {
             var book1 = GetBook("Book 1");
             SetName(book1, "New Name");
-
             Assert.Equal("New Name", book1.Name);
         }
 
@@ -60,6 +65,22 @@ namespace GradeBook.Tests
         {
             book.Name = name;
         }
+
+        [Fact]
+        public void StringsBehaveLikeValueTypes()
+        {
+            string name = "Scott";
+            var upper = MakeUppercase(name);
+
+            Assert.Equal("Scott", name);
+            Assert.Equal("SCOTT", upper);
+        }
+
+        private void MakeUppercase(string parameter)
+        {
+            parameter.ToUpper();
+        }
+
 
         [Fact]
         public void GetBookReturnsDifferentObjects()
@@ -88,4 +109,3 @@ namespace GradeBook.Tests
         }
     }
 }
-

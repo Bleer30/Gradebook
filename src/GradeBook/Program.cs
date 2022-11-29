@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace GradeBook
 {
+
     class Program
     {
         var book = new Book("Scott's Grade Book");

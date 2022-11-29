@@ -1,9 +1,11 @@
-namespace GradeBook
-{
+using System;
+using System.Collections.Generic;
+
+namespace GradeBook 
+{ 
     public class Statistics
     {
-        public void Test1()
-        {
+        public void Test1(){
           public double Average;
           public double High;
           public double Low;
